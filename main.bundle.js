@@ -20,14 +20,14 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /***/ "./src/app/app.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".slide {\n    position: absolute;\n    top: 0;\n    left: 0;\n    height: 100%;\n    width: 100%;\n    background-color: rgba(0,0,0,0.6);\n}\n\n#pelicula {\n    position: absolute;\n    top: 0;\n    left:0;\n    background-color: #ffffff;\n    z-index: 9999;\n    height: 100%;\n    width: 100%;\n}\n\n#video-source {\n    width: 100%;\n}\n\n.swiper-slide {\n    height: 100%;   \n}\n\n.verso {\n    height: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\np {\n    text-align: justify;\n}\n\n@media screen and (max-width: 600px) {\n    #video-source {\n        width: auto;\n        -webkit-transform: translateX(-30%);\n                transform: translateX(-30%);\n    }\n}\n"
+module.exports = ".slide {\n    position: absolute;\n    top: 0;\n    left: 0;\n    height: 100%;\n    width: 100%;\n    background-color: rgba(0,0,0,0.6);\n}\n\n.key1 {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 20%;\n    height: 15%;\n    background-color: transparent;\n}\n\n.key2 {\n    position: absolute;\n    top: 0;\n    right: 0;\n    width: 20%;\n    height: 15%;\n    background-color: transparent;\n}\n\n.key3 {\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    width: 20%;\n    height: 15%;\n    background-color: transparent;\n}\n\n.teste {\n    position: absolute;\n    top: 0;\n    left:0;\n    background-color: #ffffff;\n    z-index: 9999;\n    height: 100%;\n    width: 100%;\n    -webkit-transition: .3s ease;\n    transition: .3s ease;\n}\n\n.error {\n    background-color: red !important;\n}\n\n#video-source {\n    width: auto;\n    -webkit-transform: translateX(-30%);\n            transform: translateX(-30%);\n}\n\n.swiper-slide {\n    height: 100%;   \n}\n\n.verso {\n    height: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\np {\n    text-align: justify;\n}\n\n@media screen and (min-width: 600px) {\n    #video-source {\n        width: 100%;\n        -webkit-transform: translateX(0);\n                transform: translateX(0);\n    }\n}\n"
 
 /***/ }),
 
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"pelicula\"></div>\n<div id=\"main-content\">\n  <video id=\"video-source\" preload=\"auto\" loop=\"loop\" muted=\"muted\" volume=\"0\">\n    <source src=\"assets/video/Fire-snow.mp4\" type=\"video/mp4\">\n  </video>\n\n  <swiper class=\"slide\" [config]=\"config\">\n    <div class=\"swiper-wrapper total-h\">\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Se der vê o que eu te fiz\n            <br> Só mais um poema nostálgico\n            <br> Fala da nossa história feliz\n            <br> Mas dona de um final trágico\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Íamos numa pizzaria\n            <br> Queria que você fosse\n            <br> Primeiro beijo, tu sabia\n            <br> Dia vinte e um de noite\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Roubei um celinho teu\n            <br> E que gosto bom tinha\n            <br> Quero pra sempre meu\n            <br> Me da essa boca minha\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Eu ainda tava de muleta\n            <br> Mas queria segurar tua mão\n            <br> Namorava a menina perfeita\n            <br> As vezes eu caia no chão\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Nunca dei flores\n            <br> Foi só pra você\n            <br> E se todas as dores\n            <br> Fossem pra acontecer?\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Olha o que a gente fez\n            <br> Podíamos estar a sós\n            <br> Amanha já é dia seis\n            <br> E é parabéns pra nós\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Navegamos em oceano\n            <br> Mas não soubemos remar\n            <br> As ondas iam nos levando\n            <br> E não conseguimos parar\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Não é mais minha\n            <br> Onde foi que errei?\n            <br> Tu era minha rainha\n            <br> E eu fui teu rei\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Todo conto tem moral, bebê\n            <br> Essa é dura e sincera\n            <br> Serve pra mim e pra você\n            <br> Tipo assim, bela e a fera\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            O amor é doce igual açucar\n            <br> Vê se dosa a quantidade\n            <br> Se for pouco ele machuca\n            <br> Se for muito faz maldade\n          </p>\n        </div>\n      </div>\n    </div>\n    <!-- Add Arrows -->\n    <div class=\"swiper-button-next\"></div>\n    <div class=\"swiper-button-prev\"></div>\n  </swiper>\n</div>"
+module.exports = "<div *ngIf=\"locked\" class=\"teste\">\n  <div class=\"key1\" (click)=\"doIt(1)\"></div>\n  <div class=\"key2\" (click)=\"doIt(2)\" ></div>\n  <div class=\"key3\" (click)=\"doIt(3)\" ></div>\n</div>\n<div id=\"main-content\">\n  <video id=\"video-source\" preload=\"auto\" loop=\"loop\" muted=\"muted\" autoplay=\"autoplay\" volume=\"0\">\n    <source src=\"assets/video/Fire-snow.mp4\" type=\"video/mp4\">\n  </video>\n\n  <swiper *ngIf=\"!locked\" class=\"slide\" [config]=\"config\">\n    <div class=\"swiper-wrapper total-h\">\n        <div class=\"swiper-slide\">\n            <div class=\"verso\">\n              <h2>Só Outro Poema</h2>\n            </div>\n          </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Se der vê o que eu te fiz\n            <br> Só mais um poema nostálgico\n            <br> Fala da nossa história feliz\n            <br> Mas dona de um final trágico\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Íamos numa pizzaria\n            <br> Queria que você fosse\n            <br> Primeiro beijo, tu sabia\n            <br> Dia vinte e um de noite\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Roubei um celinho teu\n            <br> E que gosto bom tinha\n            <br> Quero pra sempre meu\n            <br> Me da essa boca minha\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Eu ainda tava de muleta\n            <br> Mas queria segurar tua mão\n            <br> Namorava a menina perfeita\n            <br> As vezes eu caia no chão\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Nunca dei flores\n            <br> Foi só pra você\n            <br> E se todas as dores\n            <br> Fossem pra acontecer?\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Olha o que a gente fez\n            <br> Podíamos estar a sós\n            <br> Amanha já é dia seis\n            <br> E é parabéns pra nós\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Navegamos em oceano\n            <br> Mas não soubemos remar\n            <br> As ondas iam nos levando\n            <br> E não conseguimos parar\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Não é mais minha\n            <br> Onde foi que errei?\n            <br> Tu era minha rainha\n            <br> E eu fui teu rei\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            Todo conto tem moral, bebê\n            <br> Essa é dura e sincera\n            <br> Serve pra mim e pra você\n            <br> Tipo assim, bela e a fera\n          </p>\n        </div>\n      </div>\n      <div class=\"swiper-slide\">\n        <div class=\"verso\">\n          <p>\n            O amor é doce igual açucar\n            <br> Vê se dosa a quantidade\n            <br> Se for pouco ele machuca\n            <br> Se for muito faz maldade\n          </p>\n        </div>\n      </div>\n    </div>\n    <!-- Add Arrows -->\n    <div *ngIf=\"!isMobile\" class=\"swiper-button-next\"></div>\n    <div *ngIf=\"!isMobile\" class=\"swiper-button-prev\"></div>\n  </swiper>\n</div>"
 
 /***/ }),
 
@@ -37,6 +37,8 @@ module.exports = "<div id=\"pelicula\"></div>\n<div id=\"main-content\">\n  <vid
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_sha1__ = __webpack_require__("./node_modules/sha1/sha1.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_sha1___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_sha1__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -44,8 +46,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 
+
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
+        this.password = '601f1889667efaebb33b8c12572835da3f027f78';
+        this.isMobile = true;
         this.config = {
             pagination: '.swiper-pagination',
             paginationClickable: true,
@@ -54,12 +59,32 @@ var AppComponent = /** @class */ (function () {
             spaceBetween: 30
         };
     }
-    AppComponent.prototype.ngAfterViewInit = function () {
-        this.playBackgroundVideo();
+    AppComponent.prototype.ngOnInit = function () {
+        this.locked = true;
+        this.tryMe = '';
     };
-    AppComponent.prototype.playBackgroundVideo = function () {
-        var id_video = document.getElementById('video-source');
-        id_video.play();
+    AppComponent.prototype.ngAfterViewInit = function () {
+        var screenW = $(window).width();
+        if (screenW < 600) {
+            var screenH = $(window).height();
+            $('#video-source').css('height', screenH + 'px');
+        }
+        else {
+            this.isMobile = false;
+        }
+    };
+    AppComponent.prototype.doIt = function (key) {
+        this.tryMe += key;
+        if (this.tryMe.length === 6) {
+            var yourChance = __WEBPACK_IMPORTED_MODULE_1_sha1__(this.tryMe);
+            if (yourChance === this.password) {
+                this.locked = false;
+            }
+            else {
+                $('.teste').addClass('error');
+                setTimeout(function () { $('.teste').removeClass('error'); }, 300);
+            }
+        }
     };
     AppComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
